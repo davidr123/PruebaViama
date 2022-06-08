@@ -1,0 +1,25 @@
+
+<div class="divtittleregi">
+
+    <h1 class="tituloregis">REGISTRO DE USUARIOS</h1>
+</div>
+
+<form 
+class=" form formulario card"
+ [formGroup]="formRegister"
+ (submit)="registrarUsuario()">
+ <div class="mb-3">
+ <input type="text" class="form-control"  formControlName="id" placeholder="Ingrese Id" autocapitalize="off" >
+</div>
+
+    <div class="mb-3">
+      
+      <input type="text" class="form-control"  formControlName="nombre" placeholder="Ingrese Nombre" autocapitalize="off" >
+ 
+    </div>
+    <div class="mb-3">
+      <input type="password" class="form-control" formControlName="password" placeholder="Ingrese Password" autocapitalize="off" >
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

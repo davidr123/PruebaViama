@@ -1,0 +1,39 @@
+
+body{
+    margin: 0;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-basis; */
+    margin-left: 20rem;
+   margin-right: auto;
+     margin-top: 2rem;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.table-form{
+    margin: 3rem 0;
+}
+
+.fil{
+    width: 70%;
+    margin: 1rem 0;
+    margin-right: 5rem;
+}
+
+
+.titleusu{
+    text-align: center;
+}
+
+.divusu{
+    /* box-shadow: 0 0 3px 0; */
+    width: 100%;
+}

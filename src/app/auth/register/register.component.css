@@ -1,0 +1,35 @@
+.formulario{
+    margin: 8rem auto;
+    margin-left: 25rem;
+}
+
+.formulario input{
+    width: 50%;
+}
+
+.tituloregis{
+    text-align: center;
+    color: white;
+}
+
+.divtittleregi{
+    background-color: blueviolet;
+    height: 70px;
+}
+
+.card{
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 4px 0;
+    text-align: center;
+    margin: 8rem auto;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    border: thin solid grey;
+}
+
+form input{
+    text-align: center;
+    align-items: center;
+    margin: 1rem 9rem;
+}
